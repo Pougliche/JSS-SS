@@ -20,6 +20,10 @@ const entrepreneurs = [
     { first: 'Peter', last: 'Thiel', year: 1967 }
   ];
     console.log ("======================================")
+    console.log ("Here is an array full of groundbreaking people :")
+    console.log ("======================================")
+    console.log (entrepreneurs)
+    console.log ("======================================")
     console.log ("which entrepreneur is born in the 70's?")
     console.log ("======================================")
     entrepreneurs.forEach(entrepreneur => {
@@ -42,7 +46,7 @@ const entrepreneurs = [
 
     
     entrepreneurs.forEach(entrepreneur => {
-        let now = (`${entrepreneur.first} would have ${2019-Number(entrepreneur.year)} year today! OK Boomer`)
+        let now = (`${entrepreneur.first} ${entrepreneur.last} would have ${2019-Number(entrepreneur.year)} year today! OK Boomer`)
         console.log(now);
     });
 
