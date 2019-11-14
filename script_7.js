@@ -16,6 +16,7 @@ function isUpper(bot){
 while(true){
 let bot = ""
 bot = prompt("Type your message here");
+    console.log(`Gentil_correcteur69 > ${bot}`)
     if (bot === ""){
         console.log("Jean-Eudes > Auriez vous par malheur un soucis de santé mon cher ami?");
     }
