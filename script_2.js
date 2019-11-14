@@ -1,11 +1,6 @@
-
-
-var input = parseInt(prompt("De quel nombre veux-tu calculer la factorielle ?"));
-
-var result = input;
-
-for(var i = 1; i < input; i++ )
-{
-  result = i * result;
-}
-console.log(`Le résultat est : ${result}`);
+let number = prompt("Which number do you want to calculate the factorial ?"); 
+let result = 1 ;
+for(let count = 1; count <= Number(number); count++){
+    result = result * count ;
+  }
+console.log(`Result is : ${result}!`);
